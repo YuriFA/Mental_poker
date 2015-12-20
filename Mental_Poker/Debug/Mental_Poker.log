@@ -1,0 +1,24 @@
+﻿Построение начато 20.12.2015 18:20:06.
+     1>Проект "D:\git\Mental_Poker\Mental_Poker\Mental_Poker.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CardDeck.cpp Player.cpp main.cpp
+         main.cpp
+     1>d:\git\mental_poker\mental_poker\gen_rand.h(41): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+     1>d:\git\mental_poker\mental_poker\gen_rand.h(63): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\git\mental_poker\mental_poker\main.cpp(13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Player.cpp
+         Создание кода...
+         Компиляция...
+         CardDeck.cpp
+     1>d:\git\mental_poker\mental_poker\carddeck.cpp(15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git\Mental_Poker\Debug\Mental_Poker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\git\Mental_Poker\Debug\Mental_Poker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git\Mental_Poker\Debug\Mental_Poker.lib" /MACHINE:X86 Debug\CardDeck.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Mental_Poker.vcxproj -> D:\git\Mental_Poker\Debug\Mental_Poker.exe
+     1>Построение проекта "D:\git\Mental_Poker\Mental_Poker\Mental_Poker.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.42
