@@ -11,11 +11,16 @@ CardDeck::CardDeck(): vec(deckSize){
 	this->Init(); 
 }
 
-void CardDeck::shuffle(){
+
+
+void CardDeck::shuffle(bool eDeck){
     srand(time(0));
     unsigned newPos = rand() % deckSize;
     for(deck::size_type i = 0; i!=deckSize; i++, newPos = rand() % deckSize)
-        swap(vec[i], vec[newPos]);
+        if(!eDeck)
+			swap(vec[i], vec[newPos]);
+		else
+			swap(enc_carts[i],enc_carts[newPos]);
 }
 
 void CardDeck::sortDeck(){

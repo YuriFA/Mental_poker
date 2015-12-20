@@ -5,7 +5,7 @@ typedef std::vector<unsigned> deck;
 class CardDeck{
 public:
 	CardDeck();
-	void shuffle();
+	void shuffle(bool);
 	void sortDeck();
 	void show();
 	void encDeck();
