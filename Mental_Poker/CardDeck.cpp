@@ -11,8 +11,6 @@ CardDeck::CardDeck(): vec(deckSize){
 	this->Init(); 
 }
 
-
-
 void CardDeck::shuffle(bool eDeck){
     srand(time(0));
     unsigned newPos = rand() % deckSize;

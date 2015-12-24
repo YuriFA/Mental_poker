@@ -20,6 +20,8 @@ int main()
     cards.show();*/
 	
 	Player Alice;
+	//Player Bob;
+	Alice.encryptData();
 	//Alice.showCards();
 
 	cout << endl;
