@@ -1,10 +1,9 @@
 #include <iostream>
-#include "gen_rand.h"
 #include <time.h>
-#include <vector>
 #include <algorithm>
 #include <string>
 #include "Player.h"
+#include "gen_rand.h"
 
 using namespace std;
 
@@ -12,6 +11,8 @@ int main()
 {
 	srand(time(0));
 
+	double p;
+	p = gen_prime(MIN_VAL, 999999);
 	/*CardDeck cards;	
     cards.shuffle();
     cards.show();
@@ -21,9 +22,12 @@ int main()
 	
 	Player Alice;
 	//Player Bob;
-	Alice.encryptData();
 	//Alice.showCards();
-
+	Alice.gen_kz(p);
+	Alice.show_kz();
+	Alice.encryptDeck(p);
+	Alice.showCards(false);
+	Alice.showCards(true);
 	cout << endl;
 	system("pause");
 	return 0;

@@ -7,9 +7,10 @@ public:
 	CardDeck();
 	void shuffle(bool);
 	void sortDeck();
-	void show();
-	void encDeck();
-	deck enc_carts;
+	void show(bool);
+	void encDeck(double, double);
+	void decDeck(double, double);
+	deck enc_cards;
 
 private:
     static const unsigned deckSize;

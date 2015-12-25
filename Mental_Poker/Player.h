@@ -1,25 +1,22 @@
 #include "CardDeck.h"
-#include <vector>
 #include <map>
-#include <Windows.h>
-#include <wincrypt.h>
+#include <float.h>
+
+#define MIN_VAL 99999
 
 typedef std::map<unsigned, unsigned> sign_deck;
 
 class Player{
 private:
 	CardDeck			deck;
-	double				r;
-    HCRYPTPROV          m_hProv;
-    HCRYPTKEY           m_hKey;
-	void				gen_k();	
+	double				k;
+	double				z;
     void				Init();		
 public:
-	sign_deck			encDeck;
 	Player();
 	~Player();
-	void				encryptCards();
-	void				showCards();
-	void _stdcall		encryptData();
-	void _stdcall		decryptData();
+	void				gen_kz(double);
+	void				show_kz();
+	void				encryptDeck(double);
+	void				showCards(bool);
 };
