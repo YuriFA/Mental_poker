@@ -1,23 +1,17 @@
-﻿Построение начато 25.12.2015 0:55:05.
-     1>Проект "D:\univer\GitProjects\Mental_poker_simple\Mental_Poker\Mental_Poker.vcxproj" в узле 2 (целевые объекты Build).
+﻿Построение начато 26.12.2015 16:10:11.
+     1>Проект "D:\git\Mental_Poker\Mental_Poker\Mental_Poker.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CardDeck.cpp Player.cpp main.cpp
-         CardDeck.cpp
-     1>d:\univer\gitprojects\mental_poker_simple\mental_poker\carddeck.cpp(16): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-     1>d:\univer\gitprojects\mental_poker_simple\mental_poker\carddeck.cpp(45): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
-     1>d:\univer\gitprojects\mental_poker_simple\mental_poker\carddeck.cpp(51): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
-         Создание кода...
-         Пропуск... (изменения не обнаружены)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         Player.cpp
+     1>d:\git\mental_poker\mental_poker\main.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\univer\GitProjects\Mental_poker_simple\Debug\Mental_Poker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\univer\GitProjects\Mental_poker_simple\Debug\Mental_Poker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\univer\GitProjects\Mental_poker_simple\Debug\Mental_Poker.lib" /MACHINE:X86 Debug\CardDeck.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git\Mental_Poker\Debug\Mental_Poker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\git\Mental_Poker\Debug\Mental_Poker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git\Mental_Poker\Debug\Mental_Poker.lib" /MACHINE:X86 Debug\CardDeck.obj
          Debug\gen_rand.obj
          Debug\main.obj
          Debug\Player.obj
-         Mental_Poker.vcxproj -> D:\univer\GitProjects\Mental_poker_simple\Debug\Mental_Poker.exe
-     1>Построение проекта "D:\univer\GitProjects\Mental_poker_simple\Mental_Poker\Mental_Poker.vcxproj" завершено (целевые объекты Build).
+         Mental_Poker.vcxproj -> D:\git\Mental_Poker\Debug\Mental_Poker.exe
+     1>Построение проекта "D:\git\Mental_Poker\Mental_Poker\Mental_Poker.vcxproj" завершено (целевые объекты Build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.22
+Затраченное время: 00:00:01.74

@@ -1,19 +1,19 @@
 #include <vector>
 
-typedef std::vector<unsigned> deck;
+typedef std::vector<unsigned> c_deck;
 
 class CardDeck{
 public:
+	c_deck enc_cards;
+    static const unsigned deckSize;
 	CardDeck();
-	void shuffle(bool);
-	void sortDeck();
-	void show(bool);
+	void shuffle(bool = false);
+	void sortDeck(bool = false);
+	void show(bool = false);
 	void encDeck(double, double);
 	void decDeck(double, double);
-	deck enc_cards;
-
+	void showAll();
 private:
-    static const unsigned deckSize;
-    deck vec;
+    c_deck vec;
     void Init();
 };

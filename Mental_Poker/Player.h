@@ -2,21 +2,32 @@
 #include <map>
 #include <float.h>
 
-#define MIN_VAL 99999
+#define MIN_VAL 999999
 
-typedef std::map<unsigned, unsigned> sign_deck;
+typedef std::map<unsigned, unsigned> c_section;
+typedef std::map<unsigned, unsigned>::iterator type_it;
 
 class Player{
 private:
-	CardDeck			deck;
+	CardDeck			deck;	
+	c_section			hands;
 	double				k;
 	double				z;
-    void				Init();		
 public:
+	c_deck				enc_hands;
+	c_deck				enc_deck;
+    static const unsigned handSize;
 	Player();
 	~Player();
 	void				gen_kz(double);
 	void				show_kz();
-	void				encryptDeck(double);
-	void				showCards(bool);
+	void				encryptDeck(double, bool = false);
+	void				decryptDeck(double, bool = false);
+	void				showCards(bool = false);
+	void				showEncCards();
+	void				chooseCards(c_deck);
+	void				setHands(c_deck, double, bool = false, bool = false);
+	void				showHands();
+	void				showAll();
+
 };
